@@ -39,11 +39,11 @@ struct ContentView: View {
             .listStyle(.plain)
             .searchable(text: $vm.searchText)
             .navigationTitle("Chats")
-//            .navigationBarItems(trailing: Button(action: {
-//
-//            }, label: {
-//                Image(systemName: "square.and.pencil")
-//            }))
+            .navigationBarItems(trailing: Button(action: {
+
+            }, label: {
+                Image(systemName: "square.and.pencil")
+            }))
         }
     }
 }

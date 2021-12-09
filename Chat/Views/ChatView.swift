@@ -3,7 +3,6 @@ import SwiftUI
 struct ChatView: View {
     @EnvironmentObject var vm: ChatsViewModel
     let chat: Chat
-    @State var text = ""
     @State var scrollMessageId: UUID?
     
     var body: some View {
@@ -31,7 +30,7 @@ struct ChatView: View {
         }
         .navigationTitle(chat.person.name)
         .navigationBarTitleDisplayMode(.inline)
-        //.navigationBarItems(trailing: TrailingButton)
+        .navigationBarItems(trailing: TrailingButton)
         .onAppear {
             vm.markAsRead(chat: chat)
         }
