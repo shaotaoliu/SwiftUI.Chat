@@ -3,6 +3,8 @@ import Foundation
 class ChatsViewModel: ObservableObject {
     @Published var chats: [Chat] = []
     @Published var searchText = ""
+    @Published var newText = ""
+    @Published var scrollMessageId: UUID?
     
     init() {
         load()
@@ -55,12 +57,15 @@ class ChatsViewModel: ObservableObject {
         }
     }
     
-    func sendMessage(_ text: String, in chat: Chat) -> Message? {
+    func sendMessage(in chat: Chat) -> Message? {
         if let index = chats.firstIndex(where: { $0.id == chat.id }) {
-            var message = Message(text, type: .sent)
+            var message = Message(newText, type: .sent)
             message.alreadyRead = true
             
             chats[index].messages.append(message)
+            scrollMessageId = message.id
+            newText = ""
+            
             return message
         }
         

@@ -3,8 +3,6 @@ import SwiftUI
 struct ChatView: View {
     @EnvironmentObject var vm: ChatsViewModel
     let chat: Chat
-    @State var text = ""
-    @State var scrollMessageId: UUID?
     
     var body: some View {
         VStack(spacing: 0) {
@@ -12,8 +10,8 @@ struct ChatView: View {
                 ScrollView {
                     ScrollViewReader { reader in
                         MessageView(chat: chat, viewWidth: geometry.size.width)
-                            .onChange(of: scrollMessageId) { _ in
-                                if let messageId = scrollMessageId {
+                            .onChange(of: vm.scrollMessageId) { _ in
+                                if let messageId = vm.scrollMessageId {
                                     scrollTo(scrollReader: reader, messageId: messageId, shouldAnimate: true)
                                 }
                             }
@@ -27,7 +25,7 @@ struct ChatView: View {
             }
             .padding(.bottom, 5)
             
-            MessageBar(chat: chat, messageId: $scrollMessageId)
+            MessageBar(chat: chat)
         }
         .navigationTitle(chat.person.name)
         .navigationBarTitleDisplayMode(.inline)
