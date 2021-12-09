@@ -1,0 +1,300 @@
+[
+    {
+        "person": {
+            "name": "Kevin",
+            "imgString": "kevin"
+        },
+        "messages": [
+            {
+                "text": "Execute me. My name is Jason.",
+                "type": 0,
+                "date": 900000,
+                "alreadyRead": true
+            },
+            {
+                "text": "I'm a photographer.",
+                "type": 0,
+                "date": 800000,
+                "alreadyRead": true
+            },
+            {
+                "text": "May I take a picture of you and your little boy?",
+                "type": 0,
+                "date": 700000,
+                "alreadyRead": true
+            },
+            {
+                "text": "What's it for?",
+                "type": 1,
+                "date": 680000,
+                "alreadyRead": true
+            },
+            {
+                "text": "It's for a book. I call it Family Album, U.S.A.",
+                "type": 0,
+                "date": 660000,
+                "alreadyRead": true
+            },
+            {
+                "text": "You are writing a book?",
+                "type": 1,
+                "date": 650000,
+                "alreadyRead": true
+            },
+            {
+                "text": "It's a book of pictures.😃",
+                "type": 0,
+                "date": 630000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Well, it's fine if you take our picture.",
+                "type": 1,
+                "date": 620000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Thank you. I appreciate your help.",
+                "type": 0,
+                "date": 610000,
+                "alreadyRead": true
+            },
+            {
+                "text": "You are welcome. It's nice to meet you.",
+                "type": 1,
+                "date": 600000,
+                "alreadyRead": false
+            }
+        ]
+    },
+    {
+        "person": {
+            "name": "Chris",
+            "imgString": "chris"
+        },
+        "messages": [
+            {
+                "text": "Hi, are you from New York?",
+                "type": 0,
+                "date": 540000,
+                "alreadyRead": true
+            },
+            {
+                "text": "No, I'm from Greece.",
+                "type": 1,
+                "date": 450000,
+                "alreadyRead": true
+            },
+            {
+                "text": "I'm an exchange student.",
+                "type": 1,
+                "date": 360000,
+                "alreadyRead": true
+            },
+            {
+                "text": "When did you come here?",
+                "type": 0,
+                "date": 270000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Three months ago.",
+                "type": 1,
+                "date": 180000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Your English is very good.",
+                "type": 1,
+                "date": 170000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Thanks. I studied English in school.",
+                "type": 0,
+                "date": 160000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Would you like some coffee?",
+                "type": 1,
+                "date": 100000,
+                "alreadyRead": true
+            },
+            {
+                "text": "No, thank you!",
+                "type": 0,
+                "date": 90000,
+                "alreadyRead": true
+            }
+        ]
+    },
+    {
+        "person": {
+            "name": "Ana",
+            "imgString": "ana"
+        },
+        "messages": [
+            {
+                "text": "Execuse me, office.",
+                "type": 0,
+                "date": 800000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Can you help me?",
+                "type": 0,
+                "date": 600000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Sure.",
+                "type": 1,
+                "date": 500000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Can you tell me how to get to Linden Street, in Riverdale?",
+                "type": 0,
+                "date": 400000,
+                "alreadyRead": true
+            },
+            {
+                "text": "You should take the number 1 subway.",
+                "type": 1,
+                "date": 300000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Is there a station near here?",
+                "type": 0,
+                "date": 250000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Yes. The station is that way.",
+                "type": 1,
+                "date": 220000,
+                "alreadyRead": true
+            },
+            {
+                "text": "Thank you.",
+                "type": 0,
+                "date": 19500,
+                "alreadyRead": true
+            },
+            {
+                "text": "Anytime. Good luck! 😃😃😃",
+                "type": 1,
+                "date": 190000,
+                "alreadyRead": true
+            }
+        ]
+    },
+    {
+        "person": {
+            "name": "Jack",
+            "imgString": "jack"
+        },
+        "messages": [
+            {
+                "text": "How are you?",
+                "type": 1,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "I'm tired and hungry.😭",
+                "type": 0,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "Well, Marilyn and Richard called. They will be here soon, and then we'll eat.",
+                "type": 1,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "All right. Is Susan coming?",
+                "type": 0,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "Well, she'll be here later. She has to work late tonight.",
+                "type": 1,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "And what's Robbie cooking for dinner?",
+                "type": 1,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "It's a surprise.😏",
+                "type": 0,
+                "date": 3650,
+                "alreadyRead": true
+            },
+            {
+                "text": "I hope it's pasta.😂",
+                "type": 1,
+                "date": 3650,
+                "alreadyRead": true
+            }
+        ]
+    },
+    {
+        "person": {
+            "name": "Alice",
+            "imgString": "alice"
+        },
+        "messages": [
+            {
+                "text": "Hi Jason, how are you?",
+                "type": 1,
+                "date": 41000,
+                "alreadyRead": true
+            },
+            {
+                "text": "I'm good, and you?",
+                "type": 0,
+                "date": 10100,
+                "alreadyRead": true
+            },
+            {
+                "text": "I'm good too. I have a question?",
+                "type": 1,
+                "date": 10000,
+                "alreadyRead": false
+            },
+            {
+                "text": "Have you been to New York?",
+                "type": 1,
+                "date": 9000,
+                "alreadyRead": false
+            },
+            {
+                "text": "It is a beautiful city.",
+                "type": 1,
+                "date": 8500,
+                "alreadyRead": false
+            },
+            {
+                "text": "I'll be there next week.",
+                "type": 1,
+                "date": 8300,
+                "alreadyRead": false
+            },
+            {
+                "text": "And I'll spend five days there.",
+                "type": 1,
+                "date": 8000,
+                "alreadyRead": false
+            }
+        ]
+    }
+]
